@@ -1,19 +1,32 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,400,400italic");
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
+
+html {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
 body {
   height: 100vh;
   width: 100vw;
-  background-color: #f0ffff;;
+  background-color: #f0ffff;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
 }
+
 .container {
   position: absolute;
   min-height: 10%;
@@ -25,13 +38,15 @@ body {
   border: 0.5mm ridge rgba(255, 255, 255, 0.2);
   border-radius: 5px;
 }
+
 .nav-list {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 80%;
-  width: 90%;
+  width: 100%;
 }
+
 .nav-list ul {
   display: flex;
   justify-content: center;
@@ -39,8 +54,9 @@ body {
   flex-wrap: wrap;
   list-style: none;
   height: 80%;
-  min-width: 90%;
+  min-width: 95%;
 }
+
 .nav-item li {
   display: flex;
   flex-direction: column;
@@ -49,18 +65,21 @@ body {
   height: 40px;
   width: 180px;
   margin: 10px 10px 10px 10px;
-  border: 0.5mm ridge rgba(255, 255, 255, 0.2);
   border-radius: 5px;
 }
+
 .nav-item li:hover {
   background: rgba(240, 255, 255, 0.2);
+  border: 0.5mm ridge rgba(255, 255, 255, 0.2);
   box-shadow: rgba(240, 255, 255, 0.1) 0px 0px 15px 5px;
 }
+
 .nav-link a {
   text-decoration: none;
   font-size: 1rem;
   color: #f0ffff;
 }
+
 #folder1 {
   height: 100vh;
   width: 100vw;
@@ -71,9 +90,85 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  border-radius: 5px;
 }
+
 #folder1 header h1 {
   font-size: 3.25em;
   font-weight: 100;
   color: #f0ffff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  background-color: white;
+}
+
+.container-text p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 70px;
+  max-width: 800px;
+  margin: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: large;
+  font-weight: 400;
+  font-weight: 500;
+  color: #888;
+}
+
+.container-projet {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/folder2.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.container-test {
+  height: 100vh;
+  width: 98vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/folder3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 400;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 0;
 }
