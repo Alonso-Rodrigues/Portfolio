@@ -10,18 +10,21 @@
 
 <body>
   <header class="container">
-    <nav class="nav-list">
-      <ul class="nav-item">
-        <li class="nav-link">
+    <nav id="nav-container">
+      <button id="btn-mobile">Menu
+        <span id="hamburger"></span>
+      </button>
+      <ul id="nav-list">
+        <li>
           <a href="../index.html">HOME</a>
         </li>
-        <li class="nav-link">
+        <li>
           <a href="about.html">ABOUT</a>
         </li>
-        <li class="nav-link">
+        <li>
           <a href="portfolio.html">PORTFOLIO</a>
         </li>
-        <li class="nav-link">
+        <li>
           <a href="contact.html">CONTACT</a>
         </li>
       </ul>
@@ -33,7 +36,10 @@
         <h1>Welcome</h1>
         <h2>I'm Alonso Rodrigues</h2>
         <button id="cv-btn" class="animated-btn">Download my CV</button>
-        <button id="gh-btn" class="animated-btn">GitHub →</button>
+        <button id="gh-btn" class="animated-btn">
+          <a href="https://www.linkedin.com/in/alonso-rodrigues/" target="_blank"
+            rel="noreferrer noopener nofollow">Linkedin →</a>
+        </button>
       </header>
     </section>
     <section class="container-text">
@@ -79,7 +85,7 @@
       <p>All rights reserved to Alonso Rodrigues</p>
     </footer>
   </main>
-  <script src="./assets/js/script.js"></script>
+  <script src="../assets/js/script_about.js"></script>
 </body>
 
 </html>
