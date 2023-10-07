@@ -132,8 +132,9 @@ body {
     transform: rotate(-135deg);
     top: -7px;
   }
-  #nav-container{
-   margin-right: 20px;
+
+  #nav-container {
+    margin-right: 20px;
   }
 
   #nav-list {
@@ -194,7 +195,7 @@ body {
 
 #folder1 header h1 {
   font-size: 3.25em;
-  font-weight: 100;
+  font-weight: 200;
   color: #f0ffff;
   text-shadow: 0px 0px 5px #ffffff;
   grid-column: 2 / 2;
@@ -207,23 +208,20 @@ body {
   grid-column: 1 / 3;
   grid-row: 2 / 2;
   font-size: 2.25em;
-  font-weight: 100;
+  font-weight: 200;
   color: #f0ffff;
   text-shadow: 0px 0px 5px #ffffff;
   margin-top: 100px;
 }
 
 #folder1 header #cv-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 50px;
   width: 150px;
   grid-column: 1 / 2;
   grid-row: 3 / 3;
   color: #f0ffff;
   font-size: 1rem;
-  font-weight: 100;
+  font-weight: 300;
   text-shadow: 0px 0px 5px #ffffff;
   background: rgba(240, 255, 255, 0.2);
   border: 0.5mm ridge rgba(255, 255, 255, 0.3);
@@ -235,17 +233,14 @@ body {
 #folder1 header #cv-btn:hover {
   color: #683c25;
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 500;
   text-shadow: 0px 0px 10px #ffffff;
   background: rgba(240, 255, 255, 0.3);
   box-shadow: rgba(240, 255, 255, 0.2) 0px 0px 15px 5px;
   transform: scale(1.1);
 }
 
-#folder1 header #gh-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#folder1 header #lkd-btn {
   height: 50px;
   width: 150px;
   grid-column: 1/ 2;
@@ -257,22 +252,29 @@ body {
   cursor: pointer;
 }
 
-#folder1 header #gh-btn a {
-  color: #683c25;
-  font-size: 1.1rem;
-  font-weight: 300;
-  text-shadow: 0px 0px 5px #ffffff;
-  text-decoration: none;
+#folder1 header #lkd-btn:hover {
+  transform: scale(1.1);
 }
 
-#folder1 header #gh-btn:hover {
-  color: #f0ffff;
+#folder1 header #lkd-btn a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #683c25;
   font-size: 1rem;
-  font-weight: 300;
-  text-shadow: 0px 0px 10px #ffffff;
+  font-weight: 500;
+  text-shadow: 0px 0px 5px #ffffff;
+  text-decoration: none;
+  height: 100%;
+  width: 100%
+}
+
+#folder1 header #lkd-btn a:hover {
+  font-weight: 500;
+  color: #f0ffff;
+  text-decoration: none;
   background: rgba(240, 255, 255, 0.2);
   box-shadow: rgba(240, 255, 255, 0.2) 0px 0px 15px 5px;
-  transform: scale(1.1);
 }
 
 /* ----------|Animation|---------- */
@@ -417,7 +419,7 @@ footer {
     cursor: pointer;
   }
 
-  #folder1 header #gh-btn {
+  #folder1 header #lkd-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -495,7 +497,7 @@ footer {
     cursor: pointer;
   }
 
-  #folder1 header #gh-btn {
+  #folder1 header #lkd-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -570,7 +572,7 @@ footer {
     cursor: pointer;
   }
 
-  #folder1 header #gh-btn {
+  #folder1 header #lkd-btn {
     display: flex;
     align-items: center;
     justify-content: center;
