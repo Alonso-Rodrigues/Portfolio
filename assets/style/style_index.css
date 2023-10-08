@@ -62,7 +62,7 @@ header {
 ul {
     height: 200px;
     width: 400px;
-    background: rgba(95, 255, 124, 0.2);
+    background-color: rgba(23, 168, 238, 0.5);
     opacity: 0;
     border-radius: 5px;
     overflow: hidden;
@@ -102,7 +102,7 @@ li a {
 }
 
 li a:hover {
-    background: rgba(95, 255, 124, 0.5);
+    background-color: rgba(0, 141, 229, 0.5);
     height: 100%;
     width: 100%;
 }
@@ -117,22 +117,22 @@ a {
 /*--------------------|Animation|--------------------*/
 @keyframes bounce {
     0% {
-        margin-top: 10px;
+        margin-bottom: 0px;
     }
     25%{
-        margin-bottom: 15px;
+        margin-top: 10px;
     }
 
     50% {
-        margin-top: 20px;
+        margin-bottom: 5px;
     }
 
     75% {
-        margin-bottom: 30px;
+        margin-top: 10px;
     }
 
     100% {
-        margin-top: 0;
+        margin-bottom: 0px;
     }
 }
 
@@ -142,7 +142,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(140, 173, 123, 0.5);
+    background-color: rgba(152, 224, 255, 0.5);
     height: 10%;
     width: 100%;
     color: #f0ffff;
