@@ -11,12 +11,5 @@ btnMobile.addEventListener('click', toggleMenu);
 
 //---------- |download_CV |----------
 document.getElementById('cv-btn').addEventListener('click', function () {
-    window.open('assets/download/Alonso_cv.pdf');
+    window.open('./assets/download/alonsoCV.pdf');
 })
-
-
-
-
-
-
-
